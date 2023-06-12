@@ -9,10 +9,7 @@
 </head>
 
 <body>
-    <div class="container" id="app">
-    </div>
-    @viteReactRefresh
-    @vite(['resources/js/app.jsx'])
+
 </body>
 
 </html>
