@@ -10,6 +10,11 @@
 
 <body>
 
+    <div class="container" id="app"></div>
+    @php
+    // @viteReactRefresh
+    // @vite(['resources/js/app.jsx'])
+    @endphp
 </body>
 
 </html>

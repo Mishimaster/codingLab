@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PokemonController;
+use App\Http\Controllers\LocationController;
 
 /*
 |--------------------------------------------------------------------------
@@ -19,4 +20,5 @@ Route::get('/', function () {
 });
 
 
-Route::get('/pokemons/data' , [PokemonController::class , 'data']);
+Route::get('/pokemons/data', [PokemonController::class, 'data']);
+Route::get('/api/locations/data', [LocationController::class, 'data']);
